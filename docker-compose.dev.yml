@@ -50,6 +50,7 @@ services:
 
   front:
     image: front
+    user: node
     container_name: lago_front
     stdin_open: true
     restart: unless-stopped
